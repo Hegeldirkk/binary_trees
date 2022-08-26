@@ -11,7 +11,7 @@
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-	struct binary_tree_s *created_node = malloc(sizeof(struct binary_tree_s));
+	binary_tree_t *created_node = malloc(sizeof(binary_tree_t));
 
 	if (created_node == NULL)
 		return (NULL);
